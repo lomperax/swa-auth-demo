@@ -17,7 +17,7 @@
       "rewrite": "/.auth/logout"
     },
     {
-      "route": "/.auth/login/*",
+      "route": "/.auth/login/twitter",
       "statusCode": 404
     }
   ]
