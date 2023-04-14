@@ -3,11 +3,6 @@
     {
       "route": "/api/*",
       "allowedRoles": ["member"]
-    },
-    {
-      "route": "/app/*",
-      "allowedRoles": ["member"]
-    },
     {
       "route": "/login",
       "rewrite": "/.auth/login/aad"
@@ -17,15 +12,7 @@
       "rewrite": "/.auth/logout"
     },
     {
-      "route": "/.auth/login/twitter",
-      "statusCode": 404
-    },
-    {
-      "route": "/.auth/login/github",
-      "statusCode": 404
-    },
-    {
-      "route": "/.auth/login/facebook",
+      "route": "/.auth/login/*",
       "statusCode": 404
     }
   ]
