@@ -15,7 +15,10 @@
     {
       "route": "/logout",
       "rewrite": "/.auth/logout"
+    },
+    {
+      "route": "/.auth/login/*",
+      "statusCode": 404
     }
   ]
 }
-
